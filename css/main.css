@@ -257,7 +257,7 @@ a{
     }
     
     .hero__wrapper-title{
-        width: 279px;
+        width: 100%;
         font-size: 40px;
         line-height: 40px;
     }
