@@ -150,3 +150,64 @@ a{
 }
 /******* HEADER RESPONSIVE END ******/
 /***************** HEADER STYLES END *****************/
+
+/******************** MAIN STAYLES START ********************** */
+.site-main{
+    background-color: #FEFCF7;
+}
+/**************** HERO STYLE START *******************/
+
+.hero__wrapper{
+    padding-top: 117px;
+    padding-bottom: 116px;
+    padding-left: 85px;
+    background-image: url("../images/herobg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.hero__wrapper-start{
+    width: 493px;
+}
+
+.hero__wrapper-title{
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.hero__wrapper-desc{
+    width: 445px;
+    margin-top: 0;
+    margin-bottom: 56px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+
+.hero__wrapper-link{
+    padding: 15px 31px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    background: #0E8784;
+    border-radius: 6px;
+    color: #FEFCF7;
+}
+
+/**************** HERO STYLE START *******************/
+
+
+/***************** HERO RESPONSIVE START *************** */
+@media only screen and (max-width: 768px){
+    
+}
+
+/***************** HERO RESPONSIVE END *************** */
+
+/******************** MAIN STAYLES START ********************** */
