@@ -157,6 +157,10 @@ a{
 }
 /**************** HERO STYLE START *******************/
 
+.hero{
+    margin-bottom: 136px;
+}
+
 .hero__wrapper{
     padding-top: 117px;
     padding-bottom: 116px;
@@ -239,7 +243,7 @@ a{
         text-align: center;
         z-index: 1;
     }
-
+    
     .hero__wrapper::after{
         position: absolute;
         z-index: 2;
@@ -271,4 +275,202 @@ a{
 
 /***************** HERO RESPONSIVE END *************** */
 
+
+
+
+/***************** COLLECTION STYLE START *************  */
+.our-collection{
+    margin-bottom: 500px;
+}
+
+.collection__wrapper{
+    position: relative;
+    width: 100%;
+    max-width: 1111px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.collection__wrapper-title{
+    font-size: 170px;
+    line-height: 1.5;
+    text-align: center;
+    opacity: 0.5;   
+    color: transparent;
+    background-color: #83888F;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+}
+
+.collection__list{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 126px;
+}
+
+.collection__item{
+    width: 100%;
+    max-width: 255px;
+    text-align: center;
+}
+
+.collection__item:not(:last-child){
+    margin-right: 30px;
+}
+
+.collection__item-img{
+    margin-bottom: 71px;
+}
+
+.collection__item-title{
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+}
+
+.collection__item-desc{
+    margin-top: 0;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}
+
+
+/***************** COLLECTION RESPONSIVE START ***************** */
+
+@media only screen and (max-width: 1130px){
+    .collection__wrapper{
+        max-width: 1030px;
+    }    
+}
+
+@media only screen and (max-width:914px){
+    .collection__wrapper-title{
+        font-size: 130px;
+    }
+
+}
+
+@media only screen and (max-width: 805px){
+    .collection__wrapper-title{
+        font-size: 100px;
+    }
+
+    .collection__list{
+        flex-wrap: wrap;
+        top: 74px;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .collection__wrapper-title{
+        font-size: 100px;
+    }
+
+    .collection__list{
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: no-wrap;
+        top: 126px;
+    }
+
+    .collection__list{
+        top: 74px;
+    }
+}
+
+
+@media only screen and (max-width: 635px){
+    .collection__wrapper-title{
+        font-size: 85px;
+    }
+
+    
+    .collection__list{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 126px;
+    }
+
+    .collection__item:not(:last-child){
+        margin-right: 0;
+    }
+
+    .collection__item{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 545px){
+    .collection__wrapper-title{
+        font-size: 75px;
+    }
+
+    
+    .collection__list{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 126px;
+    }
+
+    .collection__item:not(:last-child){
+        margin-right: 0;
+    }
+
+    .collection__item{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 420px){
+    .collection__wrapper-title{
+        font-size: 43px;
+    }
+
+    .collection__list{
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: no-wrap;
+        top: 126px;
+    }
+
+
+    .collection__item:not(:last-child){
+        margin-right: 0;
+    }
+
+    .collection__item{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .collection__list{
+        top: 74px;
+    }
+}
+
+/***************** COLLECTION RESPONSIVE END ***************** */
+
+/***************** COLLECTION STYLE END *************  */
 /******************** MAIN STAYLES START ********************** */
